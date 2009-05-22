@@ -1,0 +1,3 @@
+#!/system/bin/sh
+setprop net.dns1 $(getprop net.$1.dns1)
+setprop net.dns2 $(getprop net.$1.dns2)
