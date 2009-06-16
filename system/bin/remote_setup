@@ -1,0 +1,3 @@
+#!/bin/sh
+insmod /modules/lirc_dev.ko
+insmod /modules/lirc_au1xx.ko
